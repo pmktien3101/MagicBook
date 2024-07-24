@@ -1,0 +1,120 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    height: 100%;
+    background-image: url('assets/registerImage1.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: rgb(243, 243, 243);
+    height:60px;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    
+}
+.headerh{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 50px ;
+    margin-top: -10px;
+    border-radius: 30px;
+}
+
+.header-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.header-1 i{
+    margin: 0 20px;
+}
+
+.header-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-2 i{
+    margin: 0 70px;
+}
+
+.header-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.bell{
+    margin: 0 30px;
+}
+
+.content{
+    display: flex;
+    margin-top: 60px;
+    max-height: 100%;
+}
+
+.content h2{
+    font-weight: bold;
+    font-size: 35px;
+    margin: 10px 20px;
+}
+.box-left{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(223, 218, 218);
+
+}
+
+.box-right{
+    width: 75%;
+    height: 100%;
+    background-color: rgb(148, 148, 148);  
+}
+
+.form-input h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 20px;
+}
+
+.form-input img{
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+}
+.search {
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.search input{
+    width: 70%;
+}
+.sale {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.create{
+    margin-top: 20px;
+    text-align: center;
+} 
+
+.create i{
+    margin: 0 5px;
+}

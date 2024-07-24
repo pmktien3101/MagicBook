@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(243, 243, 243);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+
+}
+
+.headerh {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 50px;
+    margin-top: -10px;
+    border-radius: 30px;
+}
+
+.header-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.header-1 i {
+    margin: 0 20px;
+}
+
+.header-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-2 i {
+    margin: 0 70px;
+}
+
+
+.content h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* -------------------------------------------------------------------- */
+.friend {
+    max-width: 600px;
+    margin: 5% 30%;
+}
+
+.friend-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.friend-header h1 {
+    margin-left: 40%;
+}
+
+.friend-header button {
+    background-color: #3FD2C7;
+    color: #fff;
+    font-size: 20px;
+    border: 0px;
+}
+
+.search-bar {
+    position: relative;
+}
+
+.search-bar input {
+    width: 100%;
+    border: 2px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: #D9D9D9;
+    text-align: center;
+}
+
+.search-icon {
+    position: absolute; /* Đặt vị trí tuyệt đối cho biểu tượng tìm kiếm để nó có thể được định vị bên trong thanh tìm kiếm */
+    top: 50%; /* Đặt biểu tượng ở giữa theo chiều dọc */
+    left: 10px; /* Đặt biểu tượng cách lề phải 10px */
+    transform: translateY(-50%); /* Sử dụng biến đổi để căn giữa chính xác biểu tượng theo chiều dọc */
+}
+
+.friend-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+.friend-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 2%;
+}
+
+.friend-list img {
+    width: 10%;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px;
+    border-style: solid;
+    background-color: #FEF6F6;
+    align-content: space-evenly;
+}
+
+.friend-list p{
+    width: 30%;
+    text-align: left;
+}
